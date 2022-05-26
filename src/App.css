@@ -42,8 +42,13 @@ section {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  width: 100%;
+  margin: 20px;
+  width: calc(100% - 64px);
   border: 2px solid red;
+}
+
+section:not(:last-child) {
+  margin-bottom: 0;
 }
 
 .kvadratas {
